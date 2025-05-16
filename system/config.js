@@ -10,7 +10,7 @@
 //========RIKZZ========
 global.prefix = [".", "!", ".", ",", "🐤", "🗿"]; 
 global.publik = true
-global.owner = ["6283862849801"] 
+global.owner = ["6285166588653","6283862849801"] 
 global.namabot = 'RAJA'
 //======================
 global.mess = { 
