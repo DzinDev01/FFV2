@@ -497,7 +497,7 @@ m.reply(`bug ${prefix+command} successfully sent to the destination number. *min
             await protocolbug5(target);
             await trashprotocol(target);
     }
-  
+}
 break;
 //======================
 case "invis-hard": {
